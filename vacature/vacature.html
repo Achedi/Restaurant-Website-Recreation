@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vacature.css">
+    <meta charset="utf-8">
+    <meta name="description" content="Dit is de beste restaurant van Nederland! Kom gezellig eten en ervaar de magische explosies op je tong">
+    <script src="https://kit.fontawesome.com/8034e95042.js" crossorigin="anonymous"></script>
+    <title>ETTERA restaurant</title>
+    <script>
+      function myFunctionClose() {
+        const element =
+        document.getElementById("containerActiefId");
+        if (element.className == "containerActief") {
+            element.className = "containerActiefClose";
+        }   else {
+            element.className = "containerActief";
+        }
+      }
+      function myFunctionOpen() {
+        const element =
+        document.getElementById("containerActiefId");
+        if (element.className == "containerActief") {
+            element.className = "containerActiefClose";
+        }   else {
+            element.className = "containerActief";
+        }
+      }
+    </script>
+    <script type="module" src="./index.js"></script>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6myHzS10YXdcazAFalmXvDkrYCp5cLc8&libraries=maps,marker&v=weekly"
+            defer></script>
+    <script src="https://kit.fontawesome.com/8034e95042.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="containerActief" id="containerActiefId">
+        <div class="containerMyIcon">
+          <a href="javascript:void(0);" id="MyIcon" class="icon" onclick="myFunctionClose()">&#10005;</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="\menu\menu.html">Menu</a></li>
+            <li><a href="\Gallerij\Gallerij.html">Galerij</a></li>
+            <li><a href="\contact\contact.html">contact</a></li>
+            <li><a href="\vacature\vacature.html">Vacatures</a></li>
+            <li><a href="\Beoordelingen\beoordelingen.html">Beoordelingen</a></li>
+            <li><a href="\Evenementen\index.html">Meetings & events</a></li>
+            <div class="libox">
+              <li class="scrolldown"><a href="\Evenementen\Bijeenkomsten/index.html">Vergaderen<a/></li>
+              <li class="scrolldown"><a href="\Evenementen\Prive%20dineren\">Private Dining</a></li>
+              <li class="scrolldown"><a href="\Evenementen\Huren\Index.html">Groepen & Verhuur</a></li>
+            </div>
+          </ul>
+        </nav>
+          <div class="containerulActief">
+            <ul>
+              <li><a href="#">NEDERLANDS</a>
+              <li><a href="#">ENGELS</a></li>
+              <li><a href="#">DEUTSCH</a></li>
+              <li><a href="#">FRANCAIS</a></li>
+            </ul>
+          </div>
+      </div>
+     <div class="firstcontainer">
+      <div class="container">
+        <a href="../index.html"><h1 id="nav-title">ETTERA</a></h1>
+        <nav>
+          <ul>
+            <li><a href="\menu\menu.html">Menu</a></li>
+            <li><a href="\Gallerij\Gallerij.html">Galerij</a></li>
+            <li><a href="\contact\contact.html">contact</a></li>
+            <li><a href="\vacature\vacature.html">Vacatures</a></li>
+            <li><a href="\Beoordelingen\beoordelingen.html">Beoordelingen</a></li>
+            <span class="dropdown">
+              <button class="dropbtn"><a href="\Evenementen\index.html">Meetings & events</a>
+              </button>
+              <span class="dropdown-content">
+                <a href="\Evenementen\Bijeenkomsten\index.html">Vergaderen</a>
+                <a href="\Evenementen\Prive%20dineren\">Prive dineren</a>
+                <a href="\Evenementen\Huren\Index.html">Groepen & Verhuur</a>
+              </span>
+            </span>
+          </ul>
+        </nav>
+        <div class="containerul">
+          <ul>
+            <li><a href="#"><i class="fa-solid fa-phone"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-globe"></i></a></li>
+            <select name="language" id="language">
+              <option value="volvo">NL</option>
+              <option value="saab">EN</option>
+            </select>
+          </ul>
+        </div>
+          <a href="javascript:void(0);" id="MyIcon1" class="icon" onclick="myFunctionOpen()">&#9776;MENU</a>
+      </div>
+     </div>
+    </header>
+    <div class="hero-image">
+      <div class="hero-text">
+      </div>
+    </div>
+    <div class="contactsection">
+        <div class="openinghourscontainer">
+            <h6>ZIJN WE OPZOEK NAAR JOUW?</h6>
+            <h5>VACATURES IN ONZE RESTAURANT</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, se. Lorem ipsum dolor sit amet, consectetur adipiscing elit, se Lorem ipsum</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit ess. Duis aute irure dolor in reprehenderit in voluptate velit ess.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit ess. Duis aute irure dolor in reprehenderit in voluptate velit ess. Duis aute irure dolor in reprehenderit in voluptate velit ess.
+              reprehenderit in voluptate velit ess. Duis aute irure dolor in reprehenderit inreprehenderit</p>
+        </div>
+    </div>
+    <div class="vacature-gridcontainer">
+      <div class="vacature-usgrid">
+        <div class="sommelierfoto">
+        </div>
+          <div class="sommelier">
+            <h1>Sommelier / Restaurant Supervisor</h1>
+            <p>
+            <br>
+                De Sommelier / Restaurant Supervisor is verantwoordelijk voor het begeleiden van de gasten in hun wijnkeuze
+                en het waarborgen van een uitstekende service
+                en dagelijkse leiding in het restaurant. Deze functie combineert wijnexpertise met operationeel toezicht op het serviceteam.
+            </p>
+            <br>
+            <p>
+              consectetur quasi molestiae! Vel magnam accusantium optio ratione, inventore expedita obcaecati omnis,
+              aspernatur quo ipsum pariatur.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti error odit non! Dolorum fugiat 
+              consectetur quasi molestiae! 
+            </p>
+          </div>
+          <div class="allergicvoodpicture responsivepic">
+
+          </div>
+          <div class="allergies">
+            <h1>Restaurant waiter/waitress</h1>
+              <p>
+              <br>
+                Een waiter of waitress (ober of serveerster) is verantwoordelijk voor het bieden van professionele en gastvrije service aan gasten in een restaurant, 
+                café of hotel. Hij of zij zorgt ervoor dat gasten zich welkom voelen en een aangename eet- en drinkervaring hebben. Tot de belangrijkste taken behoren het begroeten van gasten
+                , het begeleiden naar hun tafel, het uitleggen van het menu en het opnemen van bestellingen.
+                Daarnaast serveert de waiter of waitress eten en drinken op een correcte en verzorgde manier en controleert hij of zij regelmatig of alles naar wens is bij de gasten. 
+                Ook het afruimen van tafels,
+              </p>
+              <br>
+              <p>
+                consectetur quasi molestiae! Vel magnam accusantium optio ratione, inventore expedita obcaecati omnis,
+                aspernatur quo ipsum pariatur.
+              </p>
+          </div>
+          <div class="traineepicture">
+          </div>
+          <div class="trainee">
+            <h1>Trainee</h1>
+            <p>
+            <br>
+                Wij zijn op zoek naar gemotiveerde mbo-studenten die via een traineeship praktijkervaring willen opdoen in de horeca. 
+                Dit traineeship biedt studenten de kans om hun kennis uit de opleiding toe te passen in een professionele
+                restaurantomgeving en zich verder te ontwikkelen op het gebied van gastvrijheid, service en teamwork.
+                Tijdens het traineeship werk je samen met een ervaren team en krijg je de mogelijkheid om verschillende 
+                onderdelen van het restaurant te leren kennen. Je ondersteunt onder andere bij het voorbereiden van de service
+                (mise-en-place), het ontvangen van gasten, het opnemen van bestellingen en het serveren van eten en drinken.
+
+            </p>
+            <br>
+            <p>
+
+            </p>
+          </div>
+          <div class="offerpicture">
+
+          </div>
+          <div class="offer">
+            <h1>Wij bieden</h1>
+              <p>
+              <br>
+                Wij bieden een leerzame en inspirerende werkomgeving waarin je de kans krijgt om praktijkervaring op te doen in de horeca. 
+                Tijdens het traineeship word je begeleid door ervaren collega’s die je ondersteunen in je ontwikkeling en je helpen nieuwe
+                vaardigheden te leren. Je krijgt de mogelijkheid om verschillende aspecten van restaurantservice te ontdekken en jezelf
+                professioneel te ontwikkelen. Daarnaast bieden wij een collegiale werksfeer, ruimte om te groeien binnen het team en
+                waardevolle ervaring die een goede basis vormt voor een verdere carrière in de horeca.
+              </p>
+              <br>
+              <p>
+              </p>
+          </div>
+        <div class="bestservicepicture">
+        </div>
+          <div class="bestservice">
+            <h1>Servicekwaliteit</h1>
+            <p>
+            <br>
+                Wij streven ernaar om elke gast de best mogelijke service te bieden. Gastvrijheid, aandacht voor detail en professionaliteit
+                staan bij ons centraal. Ons team werkt samen om ervoor te zorgen dat elke gast zich welkom voelt en een aangename en
+                onvergetelijke ervaring heeft. Door hoge standaarden te hanteren en voortdurend te letten op kwaliteit en service,
+                zorgen wij ervoor dat onze gasten kunnen genieten van een uitstekende restaurantbeleving. Onze medewerkers spelen
+                hierin een belangrijke rol door vriendelijk, attent en servicegericht te werken.
+            </p>
+            <br>
+            <p>
+            </p>
+          </div>
+          <div class="applypicture">
+
+          </div>
+          <div class="apply">
+            <h1>Solliciteren</h1>
+              <p>
+              <br>
+              Ben je enthousiast geworden over dit traineeship en wil je graag ervaring opdoen in de horeca? Wij nodigen gemotiveerde
+               mbo-studenten uit om te solliciteren en deel uit te maken van ons team. Stuur je cv en een korte motivatie waarin je vertel
+               t waarom je geïnteresseerd bent in het traineeship en wat je graag wilt leren. Wij kijken ernaar uit om nieuwe talenten te 
+               verwelkomen die zich willen ontwikkelen en samen met ons willen bijdragen aan een uitstekende service voor onze gasten.
+              </p>
+              <br>
+              <p>
+              </p>
+          </div>
+        </div>
+    </div> 
+    <footer>
+      <div class="footercontainer">
+        <span class="logo flex">
+          <strong>ETTERA</strong>
+        </span>
+        <span class="adress flex">
+          <strong>ADRES</strong>
+          <p>Restaurant Amsterdam</p>
+          <p>marnixstraat 45</p>
+          <p>1017 HE Amsterdam</p>
+          <p>Nederland</p>
+        </span>
+        <span class="contactus flex">
+          <strong>CONTACT</strong>
+          <p>+31 (0)20838298</p>
+          <p>welkom@ETTERA.nl</p>
+        </span>
+        <span class="footernav flex">
+          <strong>NAVIGATIE</strong>
+          <p><a href="#blank">Beoordeling</a></p>
+          <p><a href="#blank">Nieuws</a></p>
+          <p><a href="#blank">Sitemap</a></p>
+          <p><a href="#blank">Privacy beleid</a></p>
+        </span>
+      </div>
+    </footer>
+    </body>
+
+</html>

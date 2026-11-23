@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="menu.css">
+    <meta charset="utf-8">
+    <meta name="description" content="Dit is de beste restaurant van Nederland! Kom gezellig eten en ervaar de magische explosies op je tong.">
+    <script src="https://kit.fontawesome.com/8034e95042.js" crossorigin="anonymous"></script>
+    <title>ETTERA restaurant</title>
+    <script>
+      function myFunctionClose() {
+        const element =
+        document.getElementById("containerActiefId");
+        if (element.className == "containerActief") {
+            element.className = "containerActiefClose";
+        }   else {
+            element.className = "containerActief";
+        }
+      }
+      function myFunctionOpen() {
+        const element =
+        document.getElementById("containerActiefId");
+        if (element.className == "containerActief") {
+            element.className = "containerActiefClose";
+        }   else {
+            element.className = "containerActief";
+        }
+      }
+    </script>
+    <script src="https://kit.fontawesome.com/8034e95042.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="containerActief" id="containerActiefId">
+        <div class="containerMyIcon">
+          <a href="javascript:void(0);" id="MyIcon" class="icon" onclick="myFunctionClose()">&#10005;</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="\Gallerij\Gallerij.html">Galerij</a></li>
+            <li><a href="\contact\contact.html">contact</a></li>
+            <li><a href="\vacature\vacature.html">Vacatures</a></li>
+            <li><a href="\Beoordelingen\beoordelingen.html">Beoordelingen</a></li>
+            <li><a href="\Evenementen\index.html">Meetings & events</a></li>
+            <div class="libox">
+              <li class="scrolldown"><a href="\Evenementen\Bijeenkomsten/index.html">Vergaderen<a/></li>
+              <li class="scrolldown"><a href="\Evenementen\Prive%20dineren\">Private Dining</a></li>
+              <li class="scrolldown"><a href="\Evenementen\Huren\Index.html">Groepen & Verhuur</a></li>
+            </div>
+          </ul>
+        </nav>
+          <div class="containerulActief">
+            <ul>
+              <li><a href="#">NEDERLANDS</a>
+              <li><a href="#">ENGELS</a></li>
+              <li><a href="#">DEUTSCH</a></li>
+              <li><a href="#">FRANCAIS</a></li>
+            </ul>
+          </div>
+      </div>
+     <div class="firstcontainer">
+      <div class="container">
+        <a href="../index.html"><h1 id="nav-title">ETTERA</a></h1>
+        <nav>
+          <ul>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="\Gallerij\Gallerij.html">Galerij</a></li>
+            <li><a href="\contact\contact.html">contact</a></li>
+            <li><a href="\vacature\vacature.html">Vacatures</a></li>
+            <li><a href="\Beoordelingen\beoordelingen.html">Beoordelingen</a></li>
+            <span class="dropdown">
+              <button class="dropbtn"><a href="\Evenementen\index.html">Meetings & events</a>
+              </button>
+              <span class="dropdown-content">
+                <a href="\Evenementen\Bijeenkomsten\index.html">Vergaderen</a>
+                <a href="\Evenementen\Prive%20dineren\">Prive dineren</a>
+                <a href="\Evenementen\Huren\Index.html">Groepen & Verhuur</a>
+              </span>
+            </span>
+          </ul>
+        </nav>
+        <div class="containerul">
+          <ul>
+            <li><a href="#"><i class="fa-solid fa-phone"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-globe"></i></a></li>
+            <select name="language" id="language">
+              <option value="volvo">NL</option>
+              <option value="saab">EN</option>
+            </select>
+          </ul>
+        </div>
+          <a href="javascript:void(0);" id="MyIcon1" class="icon" onclick="myFunctionOpen()">&#9776;MENU</a>
+      </div>
+     </div>
+    </header>
+    <div class="hero-image">
+      <div class="hero-text">
+      </div>
+    </div>
+    <div class="menusection">
+      <div class="menusectioncontainer">
+        <h1>MENU</h1>
+        <br>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut exercitationem consectetur distinctio rerum sequi, iusto, 
+          assumenda aliquam nam sit vero architecto perferendis. Fuga atque nostrum enim architecto eum! Nobis!  consectetur adipisicing elit.
+          Dolor ut exercitationem consectetur distinctio rerum sequi, iusto, 
+        </p>
+      </div>
+    </div>
+   <div class="MenuColumn">
+    <div class="dinerwine">
+      <img src="dinerwine.jpeg" class="dinerwinepic">
+      <div class="dinerwinetext">DRINKS</div> 
+      <button class="dinerwinebutton">VIEW DRINK MENU</button>
+    </div>
+    <div class="dinerplate">
+      <img src="dinerplate.jpeg"  class="dinerplatepic">
+      <div class="dinerplatetext">MENU</div>
+      <button class="dinerplatebutton">VIEW MENU</button>
+    </div>
+    <div class="dinerdrinks">
+      <img src="dinerdrinks.jpeg" class="dinerplatepic">
+      <div class="dinerdrinkstext">BAR</div>
+      <button class="dinerdrinksbutton">VIEW BAR MENU</button>
+    </div>  
+   </div>
+    <footer>
+      <div class="footercontainer">
+        <span class="logo flex">
+          <strong>ETTERA</strong>
+        </span>
+        <span class="adress flex">
+          <strong>ADRES</strong>
+          <p>Restaurant Amsterdam</p>
+          <p>marnixstraat 45</p>
+          <p>1017 HE Amsterdam</p>
+          <p>Nederland</p>
+        </span>
+        <span class="contactus flex">
+          <strong>CONTACT</strong>
+          <p>+31 (0)20838298</p>
+          <p>welkom@ETTERA.nl</p>
+        </span>
+        <span class="footernav flex">
+          <strong>NAVIGATIE</strong>
+          <p><a href="#blank">Beoordeling</a></p>
+          <p><a href="#blank">Nieuws</a></p>
+          <p><a href="#blank">Sitemap</a></p>
+          <p><a href="#blank">Privacy beleid</a></p>
+        </span>
+      </div>
+    </footer>
+    </body>
+
+</html>

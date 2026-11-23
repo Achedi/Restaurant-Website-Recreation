@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="indexus1.css">
+    <meta charset="utf-8">
+    <meta name="description" content="Dit is de beste restaurant van Nederland! Kom gezellig eten en ervaar de magische explosies op je tong.">
+    <script src="https://kit.fontawesome.com/8034e95042.js" crossorigin="anonymous"></script>
+    <title>ETTERA restaurant</title>
+    <script>
+      function myFunctionClose() {
+        const element =
+        document.getElementById("containerActiefId");
+        if (element.className == "containerActief") {
+            element.className = "containerActiefClose";
+        }   else {
+            element.className = "containerActief";
+        }
+      }
+      function myFunctionOpen() {
+        const element =
+        document.getElementById("containerActiefId");
+        if (element.className == "containerActief") {
+            element.className = "containerActiefClose";
+        }   else {
+            element.className = "containerActief";
+        }
+      }
+    </script>
+    <script type="module" src="./index.js"></script>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6myHzS10YXdcazAFalmXvDkrYCp5cLc8&libraries=maps,marker&v=weekly"
+            defer></script>
+    <script src="https://kit.fontawesome.com/8034e95042.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="containerActief" id="containerActiefId">
+        <div class="containerMyIcon">
+          <a href="javascript:void(0);" id="MyIcon" class="icon" onclick="myFunctionClose()">&#10005;</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="\menu\menu.html">Menu</a></li>
+            <li><a href="\Gallerij\Gallerij.html">Galerij</a></li>
+            <li><a href="\contact\contact.html">contact</a></li>
+            <li><a href="\vacature\vacature.html">Vacatures</a></li>
+            <li><a href="\Beoordelingen\beoordelingen.html">Beoordelingen</a></li>
+            <li><a href="\Evenementen\index.html">Meetings & events</a></li>
+            <div class="libox">
+              <li class="scrolldown"><a href="\Evenementen\Bijeenkomsten/index.html">Vergaderen<a/></li>
+              <li class="scrolldown"><a href="\Evenementen\Prive%20dineren\">Private Dining</a></li>
+              <li class="scrolldown"><a href="\Evenementen\Huren\Index.html">Groepen & Verhuur</a></li>
+            </div>
+          </ul>
+        </nav>
+          <div class="containerulActief">
+            <ul>
+              <li><a href="#">NEDERLANDS</a>
+              <li><a href="#">ENGELS</a></li>
+              <li><a href="#">DEUTSCH</a></li>
+              <li><a href="#">FRANCAIS</a></li>
+            </ul>
+          </div>
+      </div>
+     <div class="firstcontainer">
+      <div class="container">
+        <a href="../index.html"><h1 id="nav-title">ETTERA</a></h1>
+        <nav>
+          <ul>
+            <li><a href="\menu\menu.html">Menu</a></li>
+            <li><a href="\Gallerij\Gallerij.html">Galerij</a></li>
+            <li><a href="\contact\contact.html">contact</a></li>
+            <li><a href="\vacature\vacature.html">Vacatures</a></li>
+            <li><a href="\Beoordelingen\beoordelingen.html">Beoordelingen</a></li>
+            <span class="dropdown">
+              <button class="dropbtn"><a href="\Evenementen\index.html">Meetings & events</a>
+              </button>
+              <span class="dropdown-content">
+                <a href="\Evenementen\Bijeenkomsten\index.html">Vergaderen</a>
+                <a href="\Evenementen\Prive%20dineren\">Prive dineren</a>
+                <a href="\Evenementen\Huren\Index.html">Groepen & Verhuur</a>
+              </span>
+            </span>
+          </ul>
+        </nav>
+        <div class="containerul">
+          <ul>
+            <li><a href="#"><i class="fa-solid fa-phone"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-globe"></i></a></li>
+            <select name="language" id="language">
+              <option value="volvo">NL</option>
+              <option value="saab">EN</option>
+            </select>
+          </ul>
+        </div>
+          <a href="javascript:void(0);" id="MyIcon1" class="icon" onclick="myFunctionOpen()">&#9776;MENU</a>
+      </div>
+     </div>
+    </header>
+    <div class="hero-image">
+      <div class="hero-text">
+      </div>
+    </div>
+    <div class="contactsection">
+        <div class="openinghourscontainer">
+            <h6>ETTERA, een unieke en inspirerende vergaderomgeving</h6>
+            <h5>Meetings</h5>
+            <p>Bent u op zoek naar een kleinschalige vergaderlocatie waar rust en inspiratie samenkomen?
+               Het ETTERA biedt een exclusieve ruimte voor bijeenkomsten tot 8 personen,
+               ideaal voor wie in alle focus wil overleggen.
+               De omgeving is zorgvuldig ingericht om productiviteit en creativiteit te stimuleren. Of u nu samenkomt voor een strategisch overleg, een teamafstemming of het uitwerken van nieuwe ideeën, u profiteert van een setting waarin discretie en comfort vooropstaan.
+               Hier krijgt elke bijeenkomst de aandacht en kwaliteit die nodig is om tot waardevolle resultaten te komen.
+            </p>
+        </div>
+    </div>
+    <div class="vacature-gridcontainer">
+      <div class="vacature-usgrid">
+        <div class="sommelierfoto">
+        </div>
+          <div class="sommelier">
+            <h1>Vergaderen zonder zorgen over bereikbaarheid</h1>
+            <p>
+            <br>
+                Een goede meeting begint met een locatie die voor iedereen makkelijk te bereiken is. Onze plek ligt op
+                een strategisch punt, waardoor uw gasten moeiteloos kunnen aansluiten, ongeacht hun vertrekpunt
+                of vervoermiddel.
+            </p>
+            <br>
+            <p>
+                Deze centrale ligging zorgt voor gemak en flexibiliteit, ideaal voor zowel lokale afspraken als bijeenkomsten
+                met deelnemers van buiten de stad. Zo kunt u zich volledig richten op de inhoud, terwijl de rest vanzelf klopt.
+            </p>
+          </div>
+          <div class="allergicvoodpicture responsivepic">
+
+          </div>
+          <div class="allergies">
+            <h1>Ontspannen afsluiten met een drankje</h1>
+              <p>
+              <br>
+                Na afloop van uw bijeenkomst is er de mogelijkheid om de dag rustig voort te zetten in een informele setting.
+                In een gezellige
+                en ongedwongen sfeer kunt u samen nog even napraten en genieten van een goed glas en een lichte versnapering.
+              </p>
+              <br>
+              <p>
+                De warme ambiance nodigt uit om even te ontspannen, terwijl u wordt geholpen door gastvrij personeel dat zorgt
+                voor een comfortabele en zorgeloze afsluiting van uw bezoek. 
+                Zo eindigt uw dag op een prettige en relaxte manier.
+              </p>
+          </div>
+          <div class="traineepicture">
+          </div>
+          <div class="trainee">
+            <h1>Verleng uw ervaring met een comfortabel verblijf</h1>
+            <p>
+            <br>
+                Wilt u na een geslaagde avond niet meteen naar huis? Kies dan voor een ontspannen overnachting in een sfeervolle en comfortabele omgeving vlakbij.
+                Zo hoeft u nergens meer aan te denken en kunt u in alle rust nagenieten.
+            </p>
+            <br>
+            <p>
+              Stap vanuit een bijzondere avond zo uw kamer in en kom volledig tot ontspanning. 
+              De volgende ochtend begint u fris en uitgerust aan een nieuwe dag, waardoor uw totale ervaring nog completer wordt.
+            </p>
+          </div>
+          <div class="trainee1picture">
+          </div>
+          <div class="trainee1">
+            <h1>Plan uw bijeenkomst in een rustige setting</h1>
+            <p>
+            <br>
+                Zoekt u een plek waar u ongestoord kunt overleggen, ideeën kunt uitwerken of een
+                afspraak kunt hebben in een prettige omgeving? Dan denken wij graag met u mee om een passende 
+                ruimte te organiseren.
+            </p>
+            <br>
+            <p>
+                U kunt eenvoudig contact met ons opnemen om de mogelijkheden te bespreken en uw wensen door te geven.
+                Wij zorgen ervoor dat alles goed geregeld is, zodat u zich volledig kunt richten op uw meeting.
+            </p>
+          </div>
+    </div> 
+    <footer>
+      <div class="footercontainer">
+        <span class="logo flex">
+          <strong>ETTERA</strong>
+        </span>
+        <span class="adress flex">
+          <strong>ADRES</strong>
+          <p>Restaurant Amsterdam</p>
+          <p>marnixstraat 45</p>
+          <p>1017 HE Amsterdam</p>
+          <p>Nederland</p>
+        </span>
+        <span class="contactus flex">
+          <strong>CONTACT</strong>
+          <p>+31 (0)20838298</p>
+          <p>welkom@ETTERA.nl</p>
+        </span>
+        <span class="footernav flex">
+          <strong>NAVIGATIE</strong>
+          <p><a href="#blank">Beoordeling</a></p>
+          <p><a href="#blank">Nieuws</a></p>
+          <p><a href="#blank">Sitemap</a></p>
+          <p><a href="#blank">Privacy beleid</a></p>
+        </span>
+      </div>
+    </footer>
+    </body>
+</html>

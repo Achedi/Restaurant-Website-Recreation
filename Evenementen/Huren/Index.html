@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="index.css">
+    <meta charset="utf-8">
+    <meta name="description" content="Dit is de beste restaurant van Nederland! Kom gezellig eten en ervaar de magische explosies op je tong">
+    <script src="https://kit.fontawesome.com/8034e95042.js" crossorigin="anonymous"></script>
+    <title>ETTERA restaurant</title>
+    <script>
+      function myFunctionClose() {
+        const element =
+        document.getElementById("containerActiefId");
+        if (element.className == "containerActief") {
+            element.className = "containerActiefClose";
+        }   else {
+            element.className = "containerActief";
+        }
+      }
+      function myFunctionOpen() {
+        const element =
+        document.getElementById("containerActiefId");
+        if (element.className == "containerActief") {
+            element.className = "containerActiefClose";
+        }   else {
+            element.className = "containerActief";
+        }
+      }
+    </script>
+    <script type="module" src="./index.js"></script>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6myHzS10YXdcazAFalmXvDkrYCp5cLc8&libraries=maps,marker&v=weekly"
+            defer></script>
+    <script src="https://kit.fontawesome.com/8034e95042.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="containerActief" id="containerActiefId">
+        <div class="containerMyIcon">
+          <a href="javascript:void(0);" id="MyIcon" class="icon" onclick="myFunctionClose()">&#10005;</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="\menu\menu.html">Menu</a></li>
+            <li><a href="\Gallerij\Gallerij.html">Galerij</a></li>
+            <li><a href="\contact\contact.html">contact</a></li>
+            <li><a href="\vacature\vacature.html">Vacatures</a></li>
+            <li><a href="\Beoordelingen\beoordelingen.html">Beoordelingen</a></li>
+            <li><a href="\Evenementen\index.html">Meetings & events</a></li>
+            <div class="libox">
+              <li class="scrolldown"><a href="\Evenementen\Bijeenkomsten/index.html">Vergaderen<a/></li>
+              <li class="scrolldown"><a href="\Evenementen\Prive%20dineren\">Private Dining</a></li>
+              <li class="scrolldown"><a href="\Evenementen\Huren\Index.html">Groepen & Verhuur</a></li>
+            </div>
+          </ul>
+        </nav>
+          <div class="containerulActief">
+            <ul>
+              <li><a href="#">NEDERLANDS</a>
+              <li><a href="#">ENGELS</a></li>
+              <li><a href="#">DEUTSCH</a></li>
+              <li><a href="#">FRANCAIS</a></li>
+            </ul>
+          </div>
+      </div>
+     <div class="firstcontainer">
+      <div class="container">
+        <a href="../index.html"><h1 id="nav-title">ETTERA</a></h1>
+        <nav>
+          <ul>
+            <li><a href="\menu\menu.html">Menu</a></li>
+            <li><a href="\Gallerij\Gallerij.html">Galerij</a></li>
+            <li><a href="\contact\contact.html">contact</a></li>
+            <li><a href="\vacature\vacature.html">Vacatures</a></li>
+            <li><a href="\Beoordelingen\beoordelingen.html">Beoordelingen</a></li>
+            <span class="dropdown">
+              <button class="dropbtn"><a href="\Evenementen\index.html">Meetings & events</a>
+              </button>
+              <span class="dropdown-content">
+                <a href="\Evenementen\Bijeenkomsten\index.html">Vergaderen</a>
+                <a href="\Evenementen\Prive%20dineren\">Prive dineren</a>
+                <a href="\Evenementen\Huren\Index.html">Groepen & Verhuur</a>
+              </span>
+            </span>
+          </ul>
+        </nav>
+        <div class="containerul">
+          <ul>
+            <li><a href="#"><i class="fa-solid fa-phone"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-globe"></i></a></li>
+            <select name="language" id="language">
+              <option value="volvo">NL</option>
+              <option value="saab">EN</option>
+            </select>
+          </ul>
+        </div>
+          <a href="javascript:void(0);" id="MyIcon1" class="icon" onclick="myFunctionOpen()">&#9776;MENU</a>
+      </div>
+     </div>
+    </header>
+    <div class="hero-image">
+      <div class="hero-text">
+      </div>
+    </div>
+    <div class="contactsection">
+        <div class="openinghourscontainer">
+            <h6>ZIJN WE OPZOEK NAAR JOUW?</h6>
+            <h5>VACATURES IN ONZE RESTAURANT</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, se. Lorem ipsum dolor sit amet, consectetur adipiscing elit, se Lorem ipsum</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit ess. Duis aute irure dolor in reprehenderit in voluptate velit ess.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit ess. Duis aute irure dolor in reprehenderit in voluptate velit ess. Duis aute irure dolor in reprehenderit in voluptate velit ess.
+              reprehenderit in voluptate velit ess. Duis aute irure dolor in reprehenderit inreprehenderit</p>
+        </div>
+    </div>
+    <div class="vacature-gridcontainer">
+      <div class="vacature-usgrid">
+        <div class="sommelierfoto">
+        </div>
+          <div class="sommelier">
+            <h1>IDEAL VOOR GROTERE GEZELSCHAPPEN</h1>
+            <p>
+            <br>
+             Op zoek naar een plek waar u met een groep samen kunt komen in een fijne en verzorgde omgeving? Onze locatie biedt ruimte voor gezelschappen tot
+              30 personen en is geschikt voor uiteenlopende gelegenheden.
+              Of u nu iets te vieren heeft of gewoon samen wilt genieten,
+            </p>
+            <br>
+            <p>
+            wij zorgen voor een ontspannen sfeer en een culinaire invulling die past bij het moment.
+             Met oog voor detail en gastvrijheid maken wij van elke samenkomst een ervaring die bijblijft. 
+            </p>
+          </div>
+          <div class="allergicvoodpicture responsivepic">
+
+          </div>
+          <div class="allergies">
+            <h1>AFGEHUURD VOOR UW GELEGENHEID</h1>
+              <p>
+              <br>
+                Wilt u een evenement organiseren in een omgeving die volledig voor u en uw gasten is gereserveerd? 
+                Wij bieden de mogelijkheid om de gehele locatie tot uw beschikking te hebben, zodat u in alle rust en exclusiviteit kunt genieten van uw moment.
+              </p>
+              <br>
+              <p>
+                Of het nu gaat om een feest, een zakelijke bijeenkomst of een bijzondere viering, alles wordt afgestemd op uw wensen.
+                Van de sfeer tot de culinaire invulling en service, wij zorgen ervoor dat elk detail klopt en uw evenement precies zo verloopt als u voor ogen heeft.
+              </p>
+          </div>
+          <div class="traineepicture">
+          </div>
+          <div class="trainee">
+            <h1>ARRANGEMENTEN OP MAAT</h1>
+            <p>
+            <br>
+              Geen enkele gelegenheid is hetzelfde,
+              daarom stemmen wij elk detail af op uw persoonlijke wensen. 
+              Samen met u creëren we een totaalconcept dat past bij de sfeer en het doel van uw evenement.
+            </p>
+            <br>
+            <p>
+              Van de invulling van het menu tot de aankleding en verdere beleving, alles wordt zorgvuldig samengesteld. Ons team begeleidt u gedurende 
+              het hele proces en zorgt ervoor dat alles soepel verloopt. Zo ontstaat er een ervaring die niet alleen aansluit bij uw verwachtingen,
+              maar deze ook overtreft.
+            </p>
+          </div>
+          <div class="offerpicture">
+
+          </div>
+          <div class="offer">
+            <h1>PRIVATE DINING</h1>
+              <p>
+              <br>
+              Voor wie waarde hecht aan rust en persoonlijke aandacht, bieden wij een besloten ruimte
+              waar u in alle comfort kunt samenkomen met een klein gezelschap. Een ideale plek om bijzondere momenten te delen in een ontspannen
+              en stijlvolle omgeving.
+              </p>
+              <br>
+              <p>
+              De ruimte leent zich perfect voor zowel een lunch als diner in intieme setting. U kunt kiezen voor een zorgvuldig
+              opgebouwd menu of uw eigen selectie maken uit verschillende gerechten. Elk gerecht wordt met aandacht bereid,
+              waarbij smaak en presentatie centraal staan.
+              </p>
+          </div>
+        <div class="bestservicepicture">
+        </div>
+          <div class="bestservice">
+            <h1>BLIJF OVERNACHTEN EN GENIET LANGER NA</h1>
+            <p>
+            <br>
+                Na een geslaagde avond is het prettig om niet meteen huiswaarts te keren. 
+                Kies ervoor om uw ervaring te verlengen met een comfortabel verblijf in een rustige en stijlvolle omgeving op korte afstand.
+            </p>
+            <br>
+            <p>
+              Laat de indrukken van de avond nog even bezinken terwijl u ontspant in een fijne kamer die van alle gemakken is voorzien. 
+              De volgende ochtend begint u uitgerust en met nieuwe energie aan de dag. Een ideale manier om uw bezoek op een ontspannen
+              en complete manier af te sluiten.
+            </p>
+          </div>
+          <div class="applypicture">
+
+          </div>
+          <div class="apply">
+            <h1>Makkelijk bereikbaar in het hart van de stad</h1>
+              <p>
+              <br>
+                Onze locatie ligt op een centrale plek en is eenvoudig te bereiken,
+                ongeacht hoe u reist. Of u nu kiest voor het openbaar vervoer, de fiets of de auto, u bent er snel en zonder gedoe.
+              </p>
+              <br>
+              <p>
+                Deze gunstige ligging maakt het voor iedereen prettig om samen te komen
+                zonder ingewikkelde reisplannen of lange afstanden. Zo begint uw bezoek ontspannen en soepel, nog voordat u bent aangekomen.
+              </p>
+          </div>
+        </div>
+    </div> 
+    <footer>
+      <div class="footercontainer">
+        <span class="logo flex">
+          <strong>ETTERA</strong>
+        </span>
+        <span class="adress flex">
+          <strong>ADRES</strong>
+          <p>Restaurant Amsterdam</p>
+          <p>marnixstraat 45</p>
+          <p>1017 HE Amsterdam</p>
+          <p>Nederland</p>
+        </span>
+        <span class="contactus flex">
+          <strong>CONTACT</strong>
+          <p>+31 (0)20838298</p>
+          <p>welkom@ETTERA.nl</p>
+        </span>
+        <span class="footernav flex">
+          <strong>NAVIGATIE</strong>
+          <p><a href="#blank">Beoordeling</a></p>
+          <p><a href="#blank">Nieuws</a></p>
+          <p><a href="#blank">Sitemap</a></p>
+          <p><a href="#blank">Privacy beleid</a></p>
+        </span>
+      </div>
+    </footer>
+    </body>
+</html>

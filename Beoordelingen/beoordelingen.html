@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="beoordelingen.css">
+    <meta charset="utf-8">
+    <meta name="description" content="Dit is de beste restaurant van Nederland! Kom gezellig eten en ervaar de magische explosies op je tong.">
+    <script src="https://kit.fontawesome.com/8034e95042.js" crossorigin="anonymous"></script>
+    <title>ETTERA restaurant</title>
+    <script>
+      function myFunctionClose() {
+        const element =
+        document.getElementById("containerActiefId");
+        if (element.className == "containerActief") {
+            element.className = "containerActiefClose";
+        }   else {
+            element.className = "containerActief";
+        }
+      }
+      function myFunctionOpen() {
+        const element =
+        document.getElementById("containerActiefId");
+        if (element.className == "containerActief") {
+            element.className = "containerActiefClose";
+        }   else {
+            element.className = "containerActief";
+        }
+      }
+    </script>
+    <script type="module" src="./index.js"></script>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6myHzS10YXdcazAFalmXvDkrYCp5cLc8&libraries=maps,marker&v=weekly"
+            defer></script>
+    <script src="https://kit.fontawesome.com/8034e95042.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="containerActief" id="containerActiefId">
+        <div class="containerMyIcon">
+          <a href="javascript:void(0);" id="MyIcon" class="icon" onclick="myFunctionClose()">&#10005;</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="\menu\menu.html">Menu</a></li>
+            <li><a href="\Gallerij\Gallerij.html">Galerij</a></li>
+            <li><a href="\contact\contact.html">contact</a></li>
+            <li><a href="\vacature\vacature.html">Vacatures</a></li>
+            <li><a href="\Beoordelingen\beoordelingen.html">Beoordelingen</a></li>
+            <li><a href="\Evenementen\index.html">Meetings & events</a></li>
+            <div class="libox">
+              <li class="scrolldown"><a href="\Evenementen\Bijeenkomsten/index.html">Vergaderen<a/></li>
+              <li class="scrolldown"><a href="\Evenementen\Prive%20dineren\">Private Dining</a></li>
+              <li class="scrolldown"><a href="\Evenementen\Huren\Index.html">Groepen & Verhuur</a></li>
+            </div>
+          </ul>
+        </nav>
+          <div class="containerulActief">
+            <ul>
+              <li><a href="#">NEDERLANDS</a>
+              <li><a href="#">ENGELS</a></li>
+              <li><a href="#">DEUTSCH</a></li>
+              <li><a href="#">FRANCAIS</a></li>
+            </ul>
+          </div>
+      </div>
+     <div class="firstcontainer">
+      <div class="container">
+        <a href="../index.html"><h1 id="nav-title">ETTERA</a></h1>
+        <nav>
+          <ul>
+            <li><a href="\menu\menu.html">Menu</a></li>
+            <li><a href="\Gallerij\Gallerij.html">Galerij</a></li>
+            <li><a href="\contact\contact.html">contact</a></li>
+            <li><a href="\vacature\vacature.html">Vacatures</a></li>
+            <li><a href="\Beoordelingen\beoordelingen.html">Beoordelingen</a></li>
+            <span class="dropdown">
+              <button class="dropbtn"><a href="\Evenementen\index.html">Meetings & events</a>
+              </button>
+              <span class="dropdown-content">
+                <a href="\Evenementen\Bijeenkomsten\index.html">Vergaderen</a>
+                <a href="\Evenementen\Prive%20dineren\">Prive dineren</a>
+                <a href="\Evenementen\Huren\Index.html">Groepen & Verhuur</a>
+              </span>
+            </span>
+          </ul>
+        </nav>
+        <div class="containerul">
+          <ul>
+            <li><a href="#"><i class="fa-solid fa-phone"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-globe"></i></a></li>
+            <select name="language" id="language">
+              <option value="volvo">NL</option>
+              <option value="saab">EN</option>
+            </select>
+          </ul>
+        </div>
+          <a href="javascript:void(0);" id="MyIcon1" class="icon" onclick="myFunctionOpen()">&#9776;MENU</a>
+      </div>
+     </div>
+    </header>
+    <div class="hero-image">
+      <div class="hero-text">
+      </div>
+    </div>
+    <div class="beoordelingen">
+            <div class="beoordeling">
+                <h2>BEOORDELINGEN</h2>
+            </div>
+            <div class="beoordeling1">
+                <h6>Heerlijk eten en vriendelijke service</h6>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <p>Ik heb hier laatst met een paar vrienden gegeten en we waren allemaal positief verrast. De sfeer in het restaurant
+                   was meteen gezellig toen we binnenkwamen. Het personeel was vriendelijk en hielp ons snel aan een tafel. Het eten kwam
+                   ook vrij snel en alles was vers en goed bereid. Vooral het hoofdgerecht was erg lekker en mooi gepresenteerd. De porties 
+                   waren groot genoeg waardoor we allemaal goed vol zaten. Ook de prijs viel mee voor wat je krijgt. Al met al was het een hele fijne ervaring en ik zou hier zeker nog een keer terugkomen.
+                </p>
+                <p class="bold">Cezz, juni 1 2026</p>
+            </div>
+            <div class="beoordeling1">
+                <h6>Als toerist in de stad</h6>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <p>Als toerist in de stad was ik op zoek naar een leuk restaurant om de lokale keuken te proberen. Dit restaurant bleek een uitstekende keuze. De menukaart was duidelijk en het 
+                  personeel nam de tijd om alles uit te leggen. Daardoor voelde ik mij meteen welkom. Het eten was heerlijk en goed bereid. Vooral het voorgerecht verraste mij door de frisse 
+                  smaken en mooie presentatie. Ook de sfeer in het restaurant was erg gezellig. Het voelde niet te druk of gehaast. Voor mij was dit een van de leukste eetervaringen tijdens
+                   mijn reis en ik zou het zeker aanraden aan andere bezoekers.
+                </p>
+                <p class="bold">Pieter, maart 2 2026</p>
+            </div>
+            <div class="beoordeling1">
+                <h6>Gezellige avond met lekker eten</h6>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <p>Ik ben hier samen met mijn partner gaan eten en we hebben een hele leuke avond gehad. Het restaurant ziet er van binnen mooi en verzorgd uit. 
+                   De bediening was erg vriendelijk en nam de tijd om het menu uit te leggen. We bestelden een voorgerecht en een hoofdgerecht en allebei smaakten ze erg goed.
+                   Je kon duidelijk proeven dat de ingrediënten vers waren. Ook de wachttijd was prima, we hoefden nergens lang op te wachten.
+                   Het was een ontspannen avond en we hebben er echt van genoten. We komen hier waarschijnlijk nog eens terug.
+                </p>
+                <p class="bold">Jip, januari 22 2026</p>
+            </div>
+            <div class="beoordeling1">
+                <h6>Goede prijs-kwaliteitverhouding</h6>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <p>Voor een restaurant in deze omgeving vond ik de prijzen erg redelijk. Ik ging hier eten met een paar studiegenoten en we waren allemaal tevreden. Het menu heeft genoeg keuze
+                   en er is voor iedereen wel iets te vinden. Mijn gerecht was goed bereid en de portie was ruim genoeg. De bediening was vriendelijk en werkte snel. Ook de sfeer
+                   in het restaurant was prettig en niet te druk. Voor mensen die lekker willen eten zonder dat het meteen heel duur wordt, is dit echt een goede plek. Ik zou het zeker aanraden.
+                </p>
+                <p class="bold">Mina, augustus 12 2026</p>
+            </div>
+            <div class="beoordeling1">
+                <h6>Leuke plek om met vrienden te eten</h6>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <p>We hebben hier met een groep vrienden gegeten en het was echt een geslaagde avond. Het restaurant heeft een gezellige sfeer en je kunt er goed met elkaar praten.
+                   Het personeel was vriendelijk en kwam regelmatig langs om te vragen of alles in orde was. Het eten was erg lekker en werd mooi geserveerd. 
+                   Vooral het dessert viel bij iedereen goed in de smaak.
+                   Ook de drankjes werden snel gebracht. Het voelde allemaal relaxed en gastvrij. Het is zeker een plek waar ik nog eens met vrienden zou afspreken.
+                </p>
+                <p class="bold">skelli, januari 4 2026</p>
+            </div>
+            <div class="beoordeling1">
+                <h6>Perfect voor een datee</h6>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <p> Ik kwam hier voor het eerst met mijn vriendin en het was een hele goede keuze. Het restaurant heeft een warme en gezellige sfeer met fijne verlichting.
+                   Daardoor voelde het meteen ontspannen. Het eten was erg lekker en de presentatie van de gerechten zag er mooi uit. De bediening was vriendelijk
+                    en professioneel zonder te formeel te zijn.
+                   We hebben ook een dessert gedeeld dat echt heerlijk was. De hele avond verliep soepel en we hebben er echt van genoten. Voor een romantisch diner is dit zeker een goede plek.
+                </p>
+                <p class="bold">briyanka, november 31 2026</p>
+            </div>
+            <div class="beoordeling1">            
+                <h6>Snelle service en lekker eten</h6>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <p>Wat mij vooral opviel in dit restaurant was hoe snel alles ging. Ondanks dat het redelijk druk was, hoefden we nooit lang te wachten. Het personeel werkte duidelijk goed samen. 
+                  Het eten werd snel gebracht en alles was warm en goed bereid. Mijn hoofdgerecht was erg smaakvol en de portie was precies goed. Ook de drankjes 
+                  werden snel bijgevuld. De sfeer was ontspannen en gezellig. Daardoor werd het een hele prettige avond. Ik zou hier zeker nog eens terugkomen om andere gerechten te proberen.
+                </p>
+                <p class="bold">jason, maart 23 2026</p>
+            </div>
+            <div class="beoordeling1">             
+                <h6>Mooi restaurant met fijne sfeer</h6>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <p>Wat ik erg fijn vond aan dit restaurant is dat er veel verschillende gerechten op het menu staan. Daardoor is er voor iedereen wel iets dat hij of zij lekker vindt.
+                   Ik twijfelde zelfs een beetje omdat er meerdere gerechten aantrekkelijk klonken. Uiteindelijk koos ik een hoofdgerecht dat echt heerlijk was. Ook het voorgerecht
+                   was erg goed. De bediening was vriendelijk en het eten werd netjes gepresenteerd. De sfeer in het restaurant was gezellig en ontspannen. Ik kom hier zeker nog een keer terug.
+                </p>
+                <p class="bold">Cezz, March 22nd 2026</p>
+            </div>
+            <div class="beoordeling1">
+                <h6>Leuke plek voor een familiediner</h6>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <p>Ik heb hier met mijn familie gegeten en het was een hele gezellige avond. Het restaurant heeft een ontspannen sfeer waardoor je rustig kunt praten en genieten van het eten.
+                   Het personeel was vriendelijk en geduldig, ook toen we nog twijfelden over onze bestelling. Het eten was erg lekker en de porties waren ruim. 
+                   Iedereen aan tafel was tevreden met zijn gerecht. Ook het dessert viel goed in de smaak. Het was een geslaagde avond en een fijne plek om samen met familie te eten.
+                </p>
+                <p class="bold">Andrew, november 10 2026</p>
+            </div>
+            <div class="beoordeling1">
+                <h6>Eerste bezoek maar zeker niet de laatste</h6>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <p>Dit was mijn eerste keer in dit restaurant en ik was positief verrast. Vanaf het moment dat we binnenkwamen werden we vriendelijk ontvangen. Het restaurant ziet er 
+                  netjes en verzorgd uit. Het menu heeft genoeg keuze en de gerechten zijn duidelijk met zorg bereid. Mijn maaltijd was erg lekker en werd mooi gepresenteerd. Ook de 
+                  bediening was attent en vroeg regelmatig of alles naar wens was. De sfeer was gezellig en ontspannen. Na deze ervaring weet ik zeker dat ik hier nog eens terugkom.
+                </p>
+                <p class="bold">sjaak, augustus 19 2026</p>
+            </div>
+            <div class="pages">
+              <!-- <div class="page1"> -->
+              <span><div><a href="url">1</a></div></span><span><div><a href="url">2</a></div></span><span><div><a href="url">3</a></div></span><span><div><a href="url">4</a></div></span><span><div><a href="url">5</a></div></span><span><div><a href="url">6</a></div></span><span><div><a href="url">7</a></div></span><span><div><a href="url">8</a></div></span><span><div><a href="url">9</a></div></span><span><div><a href="url">10</a></div></span><span><div><a href="url">11</a></div></span><span><div><a href="url">12</a></div></span><span><div><a href="url">13</a></div></span><span><div><a href="url">14</a></div></span><span><div><a href="url">15</a></div></span><span><div><a href="url">16</a></div></span><span><div><a href="url">17</a></div></span><span><div><a href="url">18</a></div></span><span><div><a href="url">19</a></div></span><span><div><a href="url">20</a></div></span><span><div><a href="url">21</a></div></span><span><div><a href="url">22</a></div></span><span><div><a href="url">23</a></div></span><span><div><a href="url">24</a></div></span><span><div><a href="url">25</a></div></span><span><div><a href="url">26</a></div></span><span><div><a href="url">27</a></div></span><span><div><a href="url">28</a></div></span><span><div><a href="url">29</a></div></span><span><div><a href="url">30</a></div></span><span><div><a href="url">31</a></div></span><span><div><a href="url">32</a></div></span><span><div><a href="url">33</a></div></span><span><div><a href="url">34</a></div></span><span><div><a href="url">35</a></div></span><span><div><a href="url">36</a></div></span><span><div><a href="url">37</a></div></span><span><div><a href="url">38</a></div></span>
+              <!-- </div> -->
+            </div>
+    </div>
+    <footer>
+      <div class="footercontainer">
+        <span class="logo flex">
+          <strong>ETTERA</strong>
+        </span>
+        <span class="adress flex">
+          <strong>ADRES</strong>
+          <p>Restaurant Amsterdam</p>
+          <p>marnixstraat 45</p>
+          <p>1017 HE Amsterdam</p>
+          <p>Nederland</p>
+        </span>
+        <span class="contactus flex">
+          <strong>CONTACT</strong>
+          <p>+31 (0)20838298</p>
+          <p>welkom@ETTERA.nl</p>
+        </span>
+        <span class="footernav flex">
+          <strong>NAVIGATIE</strong>
+          <p><a href="#blank">Beoordeling</a></p>
+          <p><a href="#blank">Nieuws</a></p>
+          <p><a href="#blank">Sitemap</a></p>
+          <p><a href="#blank">Privacy beleid</a></p>
+        </span>
+      </div>
+    </footer>
+    </body>
+</html>

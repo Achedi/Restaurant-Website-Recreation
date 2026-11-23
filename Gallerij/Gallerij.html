@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="Gallerij.css">
+    <meta charset="utf-8">
+    <meta name="description" content="Dit is de beste restaurant van Nederland! Kom gezellig eten en ervaar de lekkere explosies op je tong.">
+    <script src="https://kit.fontawesome.com/8034e95042.js" crossorigin="anonymous"></script>
+    <title>ETTERA restaurant</title>
+    <script>
+      function myFunctionClose() {
+        const element =
+        document.getElementById("containerActiefId");
+        if (element.className == "containerActief") {
+            element.className = "containerActiefClose";
+        }   else {
+            element.className = "containerActief";
+        }
+      }
+      function myFunctionOpen() {
+        const element =
+        document.getElementById("containerActiefId");
+        if (element.className == "containerActief") {
+            element.className = "containerActiefClose";
+        }   else {
+            element.className = "containerActief";
+        }
+      }
+    </script>
+    <script src="https://kit.fontawesome.com/8034e95042.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="containerActief" id="containerActiefId">
+        <div class="containerMyIcon">
+          <a href="javascript:void(0);" id="MyIcon" class="icon" onclick="myFunctionClose()">&#10005;</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="\menu\menu.html">Menu</a></li>
+            <li><a href="\Gallerij\Gallerij.html">Galerij</a></li>
+            <li><a href="\contact\contact.html">contact</a></li>
+            <li><a href="\vacature\vacature.html">Vacatures</a></li>
+            <li><a href="\Beoordelingen\beoordelingen.html">Beoordelingen</a></li>
+            <li><a href="\Evenementen\index.html">Meetings & events</a></li>
+            <div class="libox">
+              <li class="scrolldown"><a href="\Evenementen\Bijeenkomsten/index.html">Vergaderen<a/></li>
+              <li class="scrolldown"><a href="\Evenementen\Prive%20dineren\">Private Dining</a></li>
+              <li class="scrolldown"><a href="\Evenementen\Huren\Index.html">Groepen & Verhuur</a></li>
+            </div>
+          </ul>
+        </nav>
+          <div class="containerulActief">
+            <ul>
+              <li><a href="#">NEDERLANDS</a>
+              <li><a href="#">ENGELS</a></li>
+              <li><a href="#">DEUTSCH</a></li>
+              <li><a href="#">FRANCAIS</a></li>
+            </ul>
+          </div>
+      </div>
+     <div class="firstcontainer">
+      <div class="container">
+        <a href="../index.html"><h1 id="nav-title">ETTERA</a></h1>
+        <nav>
+          <ul>
+            <li><a href="\menu\menu.html">Menu</a></li>
+            <li><a href="\Gallerij\Gallerij.html">Galerij</a></li>
+            <li><a href="\contact\contact.html">contact</a></li>
+            <li><a href="\vacature\vacature.html">Vacatures</a></li>
+            <li><a href="\Beoordelingen\beoordelingen.html">Beoordelingen</a></li>
+            <span class="dropdown">
+              <button class="dropbtn"><a href="\Evenementen\index.html">Meetings & events</a>
+              </button>
+              <span class="dropdown-content">
+                <a href="\Evenementen\Bijeenkomsten\index.html">Vergaderen</a>
+                <a href="\Evenementen\Prive%20dineren\">Prive dineren</a>
+                <a href="\Evenementen\Huren\Index.html">Groepen & Verhuur</a>
+              </span>
+            </span>
+          </ul>
+        </nav>
+        <div class="containerul">
+          <ul>
+            <li><a href="#"><i class="fa-solid fa-phone"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-globe"></i></a></li>
+            <select name="language" id="language">
+              <option value="volvo">NL</option>
+              <option value="saab">EN</option>
+            </select>
+          </ul>
+        </div>
+          <a href="javascript:void(0);" id="MyIcon1" class="icon" onclick="myFunctionOpen()">&#9776;MENU</a>
+      </div>
+     </div>
+    </header>
+    <div class="hero-image">
+      <div class="hero-text">
+      </div>
+    </div>
+    <div class="gallerysection">
+        <!-- <div class="gridpicturescontainer">
+        <div class="h1"><h1>GALLERIJ</h1></div> -->
+          <div class="gallerytext">GALLERIJ</div>
+          <div class="img1"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/legacy/webp/coffee-crema-v9GagSChFHN0stN6iFJAw.webp"></div><div class="img2"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/legacy/webp/strawberry-layer-cake-with-whipped-cream-SdLpn6pcdSC93E27Uxmih.webp"></div>
+          <div class="img3"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/legacy/webp/colorful-bowl-of-deliciousness-with-fried-egg-RaPUELLHgqFnS9zI85BpU.webp"></div><div class="img4"><img src="https://picsum.photos/200/300"></div>
+          <div class="img5"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/legacy/webp/bowl-of-ice-cream-with-chocolate-labZgS7rWlAKNphP8l9jI.webp"></div><div class="img6"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/generated/webp/delicious-raspberry-cheesecake-slice-GoJ_0GJJuQLHmW9Ob-l1H.webp"></div>
+          <div class="img7"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/legacy/webp/layered-strawberry-cream-cake-with-cherry-topping-E44EYRurEDBt8_Yb10QDh.webp"></div><div class="img8"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/uploads/webp/delicious-berry-yogurt-bowl-with-granola-f6y8EzwC2e0lrr95zxtiE.webp"></div>
+          <div class="img9"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/legacy/webp/creamy-lime-ice-cream-with-fresh-mint-Y8HOWcrgrt2IwLHjKzvZt.webp"></div><div class="img10"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/legacy/webp/matcha-layer-cake-with-cherries-and-almonds-Z4hpWuI8ntC1uK9L3wVyl.webp"></div>
+          <div class="img11"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/generated/webp/refreshing-strawberry-drink-for-summer-days-g9TbtcTWyrrVlrDbsi2KP.webp"></div><div class="img12"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/generated/webp/savory-grilled-steak-skewers-with-sauce-QIGTcLPPoK5XxOBnaW_Xt.webp"></div>
+          <div class="img13"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/generated/webp/perfectly-seasoned-steak-for-grilling---PhjQZDqNYiZZ6VblAB-.webp"></div><div class="img14"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/generated/webp/grilled-beef-skewers-perfect-for-summer-bbq-EOuymRsg6rhIWFZRUjNnL.webp"></div>
+          <div class="img15"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/generated/webp/savory-braised-pork-belly-with-aromatic-herbs-88RArwr8NHGHvlh22lOEm.webp"></div><div class="img16"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/generated/webp/delicious-braised-pork-belly-with-sauce-nlENaH8hNwa8lakd9-JKK.webp"></div>
+          <div class="img17"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/generated/webp/healthy-green-smoothie-with-banana-and-spinach-VpjgYYwB-thAUHQlpXkPz.webp"></div><div class="img18"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/generated/webp/delicious-red-velvet-loaf-cake-slices-dRI_z02RZcJ6KWl4udf9v.webp"></div>
+          <div class="img19"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/legacy/webp/boiled-eggs-on-a-plate-2frvP1s8sWlWpJiCnBRxz.webp"></div><div class="img20"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/generated/webp/steaming-hot-coffee-in-a-minimalist-cup-uVH78K_CdA7qNt6_0MTpY.webp"></div>
+          <div class="img21"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/legacy/webp/juicy-fresh-cherries-perfect-for-any-dish-yzvIQLiWCX9KDaOv3I6cV.webp"></div><div class="img22"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/legacy/webp/breakfast-HMErsLTF08gZiBi7NhEGf.webp"></div>
+          <div class="img23"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/legacy/webp/brewing-espresso-in-a-glass-cup-_JqlTas8YvAEDlDbCl1Tc.webp"></div><div class="img24"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/legacy/webp/delicious-tiramisu-dessert-slice-on-elegant-plate-68JhqC8JJ7UeKRzV4FT5X.webp"></div>
+          <div class="img25"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/legacy/webp/man-holding-eggs-w1vsCDJauepuC0hBzDUra.webp"></div><div class="img26"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/legacy/webp/cracking-an-egg-b-VVKBziJN57qTY8YLxge.webp"></div>
+          <div class="img27"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/legacy/webp/sunny-side-up-eggs-on-a-skillet-7lZAkAEvEOqo1ew30S7JU.webp"></div><div class="img28"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/legacy/webp/boiled-egg-cup-EScdwNjsxIJy8aaumRZRE.webp"></div>
+          <div class="img29"><img src="https://pub-aaa82e9851064d22b954c3ebbafc9ae6.r2.dev/legacy/webp/pandan-ice-cream-wIhYD-D4unab_HTSoboOA.webp"></div>
+        <!-- </div> -->
+    </div>
+    
+    <footer>
+      <div class="footercontainer">
+        <span class="logo flex">
+          <strong>ETTERA</strong>
+        </span>
+        <span class="adress flex">
+          <strong>ADRES</strong>
+          <p>Restaurant Amsterdam</p>
+          <p>marnixstraat 45</p>
+          <p>1017 HE Amsterdam</p>
+          <p>Nederland</p>
+        </span>
+        <span class="contactus flex">
+          <strong>CONTACT</strong>
+          <p>+31 (0)20838298</p>
+          <p>welkom@ETTERA.nl</p>
+        </span>
+        <span class="footernav flex">
+          <strong>NAVIGATIE</strong>
+          <p><a href="#blank">Beoordeling</a></p>
+          <p><a href="#blank">Nieuws</a></p>
+          <p><a href="#blank">Sitemap</a></p>
+          <p><a href="#blank">Privacy beleid</a></p>
+        </span>
+      </div>
+    </footer>
+    </body>
+
+</html>
